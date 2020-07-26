@@ -40,7 +40,7 @@ if __name__ == '__main__':
     while True:
 
         text = listen()
-
+        print(text)
         if text.count(WAKE) > 0:
             speak("Göreve hazırım")
             job = listen()
